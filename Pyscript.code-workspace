@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/Pyscript"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PORTFOLIO"
+	}
+}

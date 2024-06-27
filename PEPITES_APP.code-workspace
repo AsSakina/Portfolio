@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/PEPITES_APP"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Documents/HACKATON "
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PORTFOLIO"
+	}
+}

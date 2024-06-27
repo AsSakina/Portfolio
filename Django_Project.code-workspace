@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/Django_Project"
+		},
+		{
+			"path": "../html5up-massively"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PORTFOLIO"
+	}
+}

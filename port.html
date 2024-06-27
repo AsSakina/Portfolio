@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name=" 'viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Le Blog des Pépites🦋</title>
+
+</head>
+<body>
+    {% block content %}
+    {% endblock content %}
+
+        <!-- Inclure la bibliothèque Chart.js -->
+    </head>
+    <body>
+        <h1>Graphique Dynamique avec Chart.js</h1>
+        <!-- Un élément canvas pour dessiner le graphique -->
+        <canvas id="myChart" width="400" height="200"></canvas>
+    
+        <script>
+            // Données à partir de Python ou autre source
+            var dataFromPython = {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+                datasets: [{
+                    label: 'Ventes mensuelles',
+                    data: [65, 59, 80, 81, 56],
+                    fill: false,
+                    borderColor: 'rgb(75, 192, 192)',
+                    tension: 0.1
+                }]
+            };
+    
+            // Créer un graphique avec Chart.js
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'line',
+                data: dataFromPython,
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+
+</body>
+</html>
+
+
+
